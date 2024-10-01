@@ -95,10 +95,10 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Binaries 1
-        path: ScreenLaunch\bin
+        path: bin\Debug\net6.0-windows\
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
         name: Binaries 2
-        path: StartSceeen\bin
+        path: bin\Release\net6.0-windows\
         
